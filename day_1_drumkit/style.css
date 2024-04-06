@@ -1,0 +1,37 @@
+body {
+  background-image: url("images/wallpaperflare.com_wallpaper\ \(5\).jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+.key {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.8em;
+  margin: 5px;
+  transition: all 0.08s;
+  text-shadow: 0 0 10px black;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: cyan;
+  box-shadow: 0 0 10px cyan;
+}
+
+kdb {
+  display: block;
+  font-size: 40px;
+  color: white;
+}
