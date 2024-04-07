@@ -1,0 +1,44 @@
+body {
+  background-image: url("images/wallpaperflare.com_wallpaper\ \(11\).jpg");
+}
+
+.clock {
+  border-radius: 50%;
+  border: 1em solid rgb(242, 118, 197);
+  height: 21em;
+  width: 21em;
+  margin: 10em auto;
+}
+
+.clock-face {
+  position: relative;
+}
+
+.hand {
+  position: absolute;
+  height: 5px;
+  width: 12em;
+  top: 10em;
+  left: 5px;
+  transform: rotate(90deg);
+  background-color: rgb(18, 127, 174);
+  transition: all 0s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+  width: 8em;
+  translate: 4em 0;
+  transform-origin: 6em;
+}
+
+.minute-hand {
+  width: 10em;
+  translate: 2em 0;
+  transform-origin: 8em;
+}
+
+.second-hand {
+  width: 12em;
+  transform-origin: 10em;
+}
