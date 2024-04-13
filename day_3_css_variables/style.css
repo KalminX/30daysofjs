@@ -1,0 +1,22 @@
+:root{
+    --base: red;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    margin: 30px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+    color: #4b147f;
+}
